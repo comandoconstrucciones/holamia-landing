@@ -13,7 +13,8 @@ body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;colo
 .container{max-width:1100px;margin:0 auto;padding:0 20px}
 .nav{position:sticky;top:0;background:rgba(247,250,249,.9);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
-.logo{font-family:Poppins,Inter,sans-serif;font-weight:700;font-size:20px}
+.logo{font-family:Poppins,Inter,sans-serif;font-weight:700;font-size:20px;display:flex;align-items:center;gap:8px}
+.logo-icon{width:28px;height:28px}
 .logo span{color:var(--primary)}
 .nav-links{display:flex;gap:18px}
 .nav-links a{color:var(--muted);text-decoration:none;font-weight:500}
